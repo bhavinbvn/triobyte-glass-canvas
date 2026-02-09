@@ -42,15 +42,15 @@ export const About = () => {
               <span className="gradient-text">Technology Partner</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              TrioByte is an Information Technology and software development
-              company delivering innovative, scalable, and secure digital
-              solutions for businesses of all sizes.
+              TrioByte is a passionate startup delivering innovative, scalable,
+              and secure digital solutions. We bring fresh perspectives and
+              cutting-edge expertise to every project we undertake.
             </p>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              We specialize in custom software development, web and mobile
-              applications, and IT consulting services that help organizations
-              improve efficiency and accelerate growth. Our team of experienced
-              professionals is dedicated to transforming your vision into reality.
+              We specialize in Web Application Development, IoT-based Solutions,
+              AI Development, and Machine Learning services that help organizations
+              innovate and grow. Our dedicated team transforms your vision into
+              powerful digital reality.
             </p>
 
             <a href="#contact" className="btn-primary inline-flex items-center gap-2">

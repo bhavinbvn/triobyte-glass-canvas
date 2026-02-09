@@ -47,9 +47,9 @@ export const Hero = () => {
           className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          TrioByte delivers innovative, scalable, and secure digital solutions
-          for businesses of all sizes. Custom software development, web & mobile
-          apps, and IT consulting to accelerate your growth.
+          TrioByte is a dynamic startup delivering innovative digital solutions
+          including Web Applications, IoT-based Solutions, AI Development, and
+          Machine Learning services to accelerate your business growth.
         </p>
 
         {/* CTA Buttons */}
@@ -72,10 +72,10 @@ export const Hero = () => {
           style={{ animationDelay: "0.4s" }}
         >
           {[
-            { value: "150+", label: "Projects Delivered" },
-            { value: "50+", label: "Happy Clients" },
-            { value: "10+", label: "Years Experience" },
-            { value: "99%", label: "Client Satisfaction" },
+            { value: "3+", label: "Projects Delivered" },
+            { value: "3+", label: "Happy Clients" },
+            { value: "1+", label: "Year Experience" },
+            { value: "100%", label: "Client Satisfaction" },
           ].map((stat, index) => (
             <div key={index} className="glass-card text-center">
               <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">

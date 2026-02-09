@@ -1,41 +1,29 @@
-import { Code2, Smartphone, Cloud, Shield, Cpu, LineChart } from "lucide-react";
+import { Globe, Cpu, Brain, TrendingUp } from "lucide-react";
 
 const services = [
   {
-    icon: Code2,
-    title: "Custom Software Development",
+    icon: Globe,
+    title: "Web Application Development",
     description:
-      "Tailored software solutions designed to meet your unique business requirements and drive operational efficiency.",
-  },
-  {
-    icon: Smartphone,
-    title: "Web & Mobile Applications",
-    description:
-      "Responsive web apps and native mobile solutions that deliver exceptional user experiences across all devices.",
-  },
-  {
-    icon: Cloud,
-    title: "Cloud Solutions",
-    description:
-      "Scalable cloud infrastructure and migration services to optimize performance and reduce operational costs.",
-  },
-  {
-    icon: Shield,
-    title: "Cybersecurity Services",
-    description:
-      "Comprehensive security assessments and implementations to protect your digital assets from evolving threats.",
+      "Modern, responsive web applications built with cutting-edge technologies to deliver exceptional user experiences and drive business growth.",
   },
   {
     icon: Cpu,
-    title: "IT Consulting",
+    title: "IoT-Based Solutions",
     description:
-      "Strategic technology guidance to align your IT infrastructure with business goals and industry best practices.",
+      "Smart IoT solutions connecting devices, sensors, and systems to automate processes and unlock real-time data insights.",
   },
   {
-    icon: LineChart,
-    title: "Digital Transformation",
+    icon: Brain,
+    title: "AI Development",
     description:
-      "End-to-end digital transformation services to modernize operations and enhance competitive advantage.",
+      "Custom artificial intelligence solutions including chatbots, automation, and intelligent systems to transform your operations.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Machine Learning",
+    description:
+      "Advanced ML models for predictive analytics, pattern recognition, and data-driven decision making to give you a competitive edge.",
   },
 ];
 
@@ -62,7 +50,7 @@ export const Services = () => {
         </div>
 
         {/* Services grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {services.map((service, index) => (
             <div
               key={index}
