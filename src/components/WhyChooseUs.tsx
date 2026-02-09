@@ -3,8 +3,8 @@ import { Award, Clock, Headphones, Zap, Shield, Users } from "lucide-react";
 const reasons = [
   {
     icon: Award,
-    title: "Proven Expertise",
-    description: "10+ years of delivering successful projects across diverse industries.",
+    title: "Fresh Expertise",
+    description: "Passionate startup bringing innovative solutions with cutting-edge technologies.",
   },
   {
     icon: Zap,
